@@ -12,8 +12,6 @@ RUN wget http://ftp.cixug.es/apache/tomcat/tomcat-8/v8.5.20/bin/apache-tomcat-8.
 RUN ln -s /opt/apache-tomcat* /opt/tomcat && ln -s /opt/jre* /opt/java
 RUN PATH=$PATH:$JAVA_HOME
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
-
-
