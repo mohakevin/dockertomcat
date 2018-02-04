@@ -1,5 +1,5 @@
 FROM debian
-MAINTAINER adrian@adrianperez.net
+LABEL MAINTAINER adrian@adrianperez.net
 
 ENV JAVA_HOME /opt/java
 
